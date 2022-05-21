@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    min-height: 100vh;
+    background-image: url("../imagenes/arboles.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+}
+body:before{
+    content: "";
+    width: 100%;
+    min-height: 50em;
+    background: linear-gradient(rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+#contenedor{
+    width: 900px;
+    margin: auto;
+    outline: 1px solid black;
+    display: flex;
+    background-image: url("../imagenes/arboles.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+    .cuadrados{
+        width: 100%;
+        height: 100px;
+        background: rgba(0,0,0,0.5);
+        margin: 30px 0px;
+        padding: 30px;
+        color: #fff;
+
+    }
+#Contenedorescuerpo{
+    width: 900px;
+    margin: auto;
+    outline: 1px solid black;
+    
+    background: #5ad566;
+    display: flex;
+}
+    #menu{
+        width: 40%;
+        height: 160px;
+        background: #66F174;
+        display: flex;
+        flex-wrap: wrap;
+    }
+        #menu a{
+            width: 100%;
+            height: 40px;
+            background: #5eac3d;
+            text-decoration: none;
+            color: rgb(52, 51, 50);
+            padding: 10px 20px;
+        }
+        #menu a:hover{
+            width: 100%;
+            height: 40px;
+            background: #FFF;
+            text-decoration: none;
+            color: #888B81;
+            padding: 10px 20px;
+        }
+
+    #cuerpo{
+        width: 60%;
+        background: #FFF;
+        position: relative;
+        top: -20px;
+        border-radius: 5px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+        .Areas{
+            width: 100%;
+            
+            background-color: #FFF;
+            margin: 10px;
+        }
+            .informacion{
+                display: flex;
+            }
+                .Subinformacion{
+                    width: 50%;
+                    background-color: #FFF;
+                    padding: 10px;
+                }
+                    .Subinformacion img{
+                        width: 100%;
+                    }
+                    .Subinformacion h2{
+                        color: #FF6A20;
+                    }
+                    .Subinformacion p{
+                        color: #ad4b00;
+                    }
+            .video1{
+                padding: 10px;
+            }
+            .Imagenes{
+                display: flex;
+                flex-wrap: nowrap;
+            }
+                .Imagenes img{
+                    width: 30%;
+                    margin: 10px;
+                }
+#Diseño{
+    padding: 30px 40px;
+    color: #FF6A20;
+}
